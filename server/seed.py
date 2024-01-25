@@ -88,7 +88,7 @@ with app.app_context():
         )
         games.append(g)
 
-    db.session.add_all(games)
+    db.session.add_all(games) 
 
     reviews = []
     for u in users:
